@@ -10,60 +10,17 @@
 		0314194B21469BB50030B553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314194A21469BB50030B553 /* AppDelegate.m */; };
 		0314195321469BB60030B553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0314195221469BB60030B553 /* Assets.xcassets */; };
 		0314195921469BB60030B553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0314195821469BB60030B553 /* main.m */; };
-		03141A352146A3FA0030B553 /* LWTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419E32146A3FA0030B553 /* LWTextContainer.m */; };
-		03141A362146A3FA0030B553 /* LWTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419E42146A3FA0030B553 /* LWTransaction.m */; };
-		03141A372146A3FA0030B553 /* LWTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419E72146A3FA0030B553 /* LWTextLayout.m */; };
-		03141A382146A3FB0030B553 /* LWCGRectTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419E92146A3FA0030B553 /* LWCGRectTransform.m */; };
-		03141A392146A3FB0030B553 /* LWHTMLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419EA2146A3FA0030B553 /* LWHTMLLayout.m */; };
-		03141A3A2146A3FB0030B553 /* LWTextGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419EB2146A3FA0030B553 /* LWTextGlyph.m */; };
-		03141A3B2146A3FB0030B553 /* LWGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419EC2146A3FA0030B553 /* LWGIFImage.m */; };
-		03141A3C2146A3FB0030B553 /* LWHTMLImageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419EE2146A3FA0030B553 /* LWHTMLImageConfig.m */; };
-		03141A3D2146A3FB0030B553 /* CALayer+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419F22146A3FA0030B553 /* CALayer+WebCacheOperation.m */; };
-		03141A3E2146A3FB0030B553 /* LWAsyncImageView+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419F82146A3FA0030B553 /* LWAsyncImageView+Display.m */; };
-		03141A3F2146A3FB0030B553 /* LWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419FE2146A3FA0030B553 /* LWLayout.m */; };
-		03141A402146A3FB0030B553 /* LWTransactionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 031419FF2146A3FA0030B553 /* LWTransactionGroup.m */; };
-		03141A412146A3FB0030B553 /* NSMutableAttributedString+Gallop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A022146A3FA0030B553 /* NSMutableAttributedString+Gallop.m */; };
-		03141A422146A3FB0030B553 /* NSManagedObject+LWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A042146A3FA0030B553 /* NSManagedObject+LWLayout.m */; };
-		03141A432146A3FB0030B553 /* LWTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A062146A3FA0030B553 /* LWTextAttachment.m */; };
-		03141A442146A3FB0030B553 /* NSString+HKMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A082146A3FA0030B553 /* NSString+HKMD5.m */; };
-		03141A452146A3FB0030B553 /* CALayer+LWTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A0A2146A3FA0030B553 /* CALayer+LWTransaction.m */; };
-		03141A462146A3FB0030B553 /* LWHTMLTextConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A0B2146A3FA0030B553 /* LWHTMLTextConfig.m */; };
-		03141A472146A3FB0030B553 /* SDWebImageManager+Gallop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A0C2146A3FA0030B553 /* SDWebImageManager+Gallop.m */; };
-		03141A482146A3FB0030B553 /* LWFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A0D2146A3FA0030B553 /* LWFlag.m */; };
-		03141A492146A3FB0030B553 /* LWHTMLDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A102146A3FA0030B553 /* LWHTMLDisplayView.m */; };
-		03141A4A2146A3FB0030B553 /* LWTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A162146A3FA0030B553 /* LWTextLine.m */; };
-		03141A4B2146A3FB0030B553 /* LWTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A182146A3FA0030B553 /* LWTextStorage.m */; };
-		03141A4C2146A3FB0030B553 /* LWStorageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A192146A3FA0030B553 /* LWStorageBuilder.m */; };
-		03141A4D2146A3FB0030B553 /* LWAsyncDisplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A1B2146A3FA0030B553 /* LWAsyncDisplayLayer.m */; };
-		03141A4E2146A3FB0030B553 /* LWImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A1C2146A3FA0030B553 /* LWImageStorage.m */; };
-		03141A4F2146A3FB0030B553 /* LWHTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A1E2146A3FA0030B553 /* LWHTMLNode.m */; };
-		03141A502146A3FB0030B553 /* LWAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A202146A3FA0030B553 /* LWAsyncImageView.m */; };
-		03141A512146A3FB0030B553 /* CALayer+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A212146A3FA0030B553 /* CALayer+WebCache.m */; };
-		03141A522146A3FB0030B553 /* SDImageCache+Gallop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A222146A3FA0030B553 /* SDImageCache+Gallop.m */; };
-		03141A532146A3FB0030B553 /* LWImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A232146A3FA0030B553 /* LWImageProcessor.m */; };
-		03141A542146A3FB0030B553 /* GallopUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A242146A3FA0030B553 /* GallopUtils.m */; };
-		03141A552146A3FB0030B553 /* LWTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A252146A3FA0030B553 /* LWTextParser.m */; };
-		03141A562146A3FB0030B553 /* LWStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A272146A3FA0030B553 /* LWStorage.m */; };
-		03141A572146A3FB0030B553 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A292146A3FA0030B553 /* NSString+HTML.m */; };
-		03141A582146A3FB0030B553 /* LWAsyncDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A2A2146A3FA0030B553 /* LWAsyncDisplayView.m */; };
-		03141A592146A3FB0030B553 /* LWHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A2B2146A3FA0030B553 /* LWHTMLParser.m */; };
-		03141A5A2146A3FB0030B553 /* LWAsyncImageView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A2D2146A3FA0030B553 /* LWAsyncImageView+WebCacheOperation.m */; };
-		03141A5B2146A3FB0030B553 /* UIImage+Gallop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A2F2146A3FA0030B553 /* UIImage+Gallop.m */; };
-		03141A5C2146A3FB0030B553 /* LWTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A322146A3FA0030B553 /* LWTextRunDelegate.m */; };
-		03141A5D2146A3FB0030B553 /* LWAsyncImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A342146A3FA0030B553 /* LWAsyncImageView+WebCache.m */; };
 		03141A672146A64A0030B553 /* AppConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03141A662146A64A0030B553 /* AppConfigurationTemplate.m */; };
 		03141A6B2146A7B50030B553 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03141A692146A7A60030B553 /* libxml2.2.tbd */; };
 		0BC9C087957587E830056648 /* Pods_DaysMatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36468A513C59ED38B4C8C667 /* Pods_DaysMatter.framework */; };
 		499416C83B006E9CF274A068 /* Pods_DaysMatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9D01FD7A1B70092AD68B9 /* Pods_DaysMatter.framework */; };
 		892720C62160CCD2006E066F /* SWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892720C52160CCD2006E066F /* SWTableViewController.m */; };
-		892720C92160CED5006E066F /* YPNavigationController+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 892720C72160CED5006E066F /* YPNavigationController+Configure.m */; };
-		892720FA216C4956006E066F /* SWRealmConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 892720F9216C4956006E066F /* SWRealmConfiguration.m */; };
 		89272198216DC5FA006E066F /* HTTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = 89272197216DC5FA006E066F /* HTTraffic.m */; };
-		892721A0216DF1EC006E066F /* SWDataCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927219F216DF1EC006E066F /* SWDataCounter.m */; };
 		892721A9216F3406006E066F /* SWColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892721A8216F3406006E066F /* SWColorViewController.m */; };
 		892721B1216F351B006E066F /* SWTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 892721B0216F351B006E066F /* SWTheme.m */; };
 		892721B4216F5137006E066F /* IndexHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 892721B3216F5137006E066F /* IndexHeaderView.m */; };
 		892721B8216F53E3006E066F /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 892721B7216F53E3006E066F /* bg.jpg */; };
+		8927220221709D28006E066F /* SWMatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927220121709D28006E066F /* SWMatter.m */; };
 		897EBB7B2147664800CC32BF /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897EBB7A2147664800CC32BF /* SWViewController.m */; };
 		897EBB81214767DC00CC32BF /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897EBB80214767DC00CC32BF /* IndexViewController.m */; };
 		897EBBCC2147C33200CC32BF /* UITableView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 897EBBAD2147C33100CC32BF /* UITableView+Common.m */; };
@@ -128,90 +85,6 @@
 		0314195221469BB60030B553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0314195721469BB60030B553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0314195821469BB60030B553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		031419E12146A3FA0030B553 /* LWAsyncDisplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAsyncDisplayLayer.h; sourceTree = "<group>"; };
-		031419E22146A3FA0030B553 /* LWImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWImageStorage.h; sourceTree = "<group>"; };
-		031419E32146A3FA0030B553 /* LWTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextContainer.m; sourceTree = "<group>"; };
-		031419E42146A3FA0030B553 /* LWTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTransaction.m; sourceTree = "<group>"; };
-		031419E52146A3FA0030B553 /* LWTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextStorage.h; sourceTree = "<group>"; };
-		031419E62146A3FA0030B553 /* LWStorageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWStorageBuilder.h; sourceTree = "<group>"; };
-		031419E72146A3FA0030B553 /* LWTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextLayout.m; sourceTree = "<group>"; };
-		031419E82146A3FA0030B553 /* LWTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextLine.h; sourceTree = "<group>"; };
-		031419E92146A3FA0030B553 /* LWCGRectTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCGRectTransform.m; sourceTree = "<group>"; };
-		031419EA2146A3FA0030B553 /* LWHTMLLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLLayout.m; sourceTree = "<group>"; };
-		031419EB2146A3FA0030B553 /* LWTextGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextGlyph.m; sourceTree = "<group>"; };
-		031419EC2146A3FA0030B553 /* LWGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWGIFImage.m; sourceTree = "<group>"; };
-		031419ED2146A3FA0030B553 /* LWHTMLDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLDisplayView.h; sourceTree = "<group>"; };
-		031419EE2146A3FA0030B553 /* LWHTMLImageConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLImageConfig.m; sourceTree = "<group>"; };
-		031419EF2146A3FA0030B553 /* LWHTMLTextConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLTextConfig.h; sourceTree = "<group>"; };
-		031419F02146A3FA0030B553 /* LWFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWFlag.h; sourceTree = "<group>"; };
-		031419F12146A3FA0030B553 /* SDWebImageManager+Gallop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+Gallop.h"; sourceTree = "<group>"; };
-		031419F22146A3FA0030B553 /* CALayer+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+WebCacheOperation.m"; sourceTree = "<group>"; };
-		031419F32146A3FA0030B553 /* GallopUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GallopUtils.h; sourceTree = "<group>"; };
-		031419F42146A3FA0030B553 /* LWImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWImageProcessor.h; sourceTree = "<group>"; };
-		031419F52146A3FA0030B553 /* SDImageCache+Gallop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDImageCache+Gallop.h"; sourceTree = "<group>"; };
-		031419F62146A3FA0030B553 /* CALayer+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+WebCache.h"; sourceTree = "<group>"; };
-		031419F72146A3FA0030B553 /* LWAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAsyncImageView.h; sourceTree = "<group>"; };
-		031419F82146A3FA0030B553 /* LWAsyncImageView+Display.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWAsyncImageView+Display.m"; sourceTree = "<group>"; };
-		031419F92146A3FA0030B553 /* LWHTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLNode.h; sourceTree = "<group>"; };
-		031419FA2146A3FA0030B553 /* LWHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLParser.h; sourceTree = "<group>"; };
-		031419FB2146A3FA0030B553 /* LWAsyncDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAsyncDisplayView.h; sourceTree = "<group>"; };
-		031419FC2146A3FA0030B553 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
-		031419FD2146A3FA0030B553 /* LWStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWStorage.h; sourceTree = "<group>"; };
-		031419FE2146A3FA0030B553 /* LWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLayout.m; sourceTree = "<group>"; };
-		031419FF2146A3FA0030B553 /* LWTransactionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTransactionGroup.m; sourceTree = "<group>"; };
-		03141A002146A3FA0030B553 /* LWTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextParser.h; sourceTree = "<group>"; };
-		03141A012146A3FA0030B553 /* GallopDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GallopDefine.h; sourceTree = "<group>"; };
-		03141A022146A3FA0030B553 /* NSMutableAttributedString+Gallop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Gallop.m"; sourceTree = "<group>"; };
-		03141A032146A3FA0030B553 /* LWAsyncImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWAsyncImageView+WebCache.h"; sourceTree = "<group>"; };
-		03141A042146A3FA0030B553 /* NSManagedObject+LWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+LWLayout.m"; sourceTree = "<group>"; };
-		03141A052146A3FA0030B553 /* LWTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextRunDelegate.h; sourceTree = "<group>"; };
-		03141A062146A3FA0030B553 /* LWTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextAttachment.m; sourceTree = "<group>"; };
-		03141A072146A3FA0030B553 /* UIImage+Gallop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gallop.h"; sourceTree = "<group>"; };
-		03141A082146A3FA0030B553 /* NSString+HKMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HKMD5.m"; sourceTree = "<group>"; };
-		03141A092146A3FA0030B553 /* LWAsyncImageView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWAsyncImageView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		03141A0A2146A3FA0030B553 /* CALayer+LWTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LWTransaction.m"; sourceTree = "<group>"; };
-		03141A0B2146A3FA0030B553 /* LWHTMLTextConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLTextConfig.m; sourceTree = "<group>"; };
-		03141A0C2146A3FA0030B553 /* SDWebImageManager+Gallop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+Gallop.m"; sourceTree = "<group>"; };
-		03141A0D2146A3FA0030B553 /* LWFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWFlag.m; sourceTree = "<group>"; };
-		03141A0E2146A3FA0030B553 /* CALayer+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+WebCacheOperation.h"; sourceTree = "<group>"; };
-		03141A0F2146A3FA0030B553 /* LWHTMLImageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLImageConfig.h; sourceTree = "<group>"; };
-		03141A102146A3FA0030B553 /* LWHTMLDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLDisplayView.m; sourceTree = "<group>"; };
-		03141A112146A3FA0030B553 /* LWTextGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextGlyph.h; sourceTree = "<group>"; };
-		03141A122146A3FA0030B553 /* LWGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWGIFImage.h; sourceTree = "<group>"; };
-		03141A132146A3FA0030B553 /* LWHTMLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHTMLLayout.h; sourceTree = "<group>"; };
-		03141A142146A3FA0030B553 /* LWCGRectTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCGRectTransform.h; sourceTree = "<group>"; };
-		03141A152146A3FA0030B553 /* Gallop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gallop.h; sourceTree = "<group>"; };
-		03141A162146A3FA0030B553 /* LWTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextLine.m; sourceTree = "<group>"; };
-		03141A172146A3FA0030B553 /* LWTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextLayout.h; sourceTree = "<group>"; };
-		03141A182146A3FA0030B553 /* LWTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextStorage.m; sourceTree = "<group>"; };
-		03141A192146A3FA0030B553 /* LWStorageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWStorageBuilder.m; sourceTree = "<group>"; };
-		03141A1A2146A3FA0030B553 /* LWTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTransaction.h; sourceTree = "<group>"; };
-		03141A1B2146A3FA0030B553 /* LWAsyncDisplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAsyncDisplayLayer.m; sourceTree = "<group>"; };
-		03141A1C2146A3FA0030B553 /* LWImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWImageStorage.m; sourceTree = "<group>"; };
-		03141A1D2146A3FA0030B553 /* LWTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextContainer.h; sourceTree = "<group>"; };
-		03141A1E2146A3FA0030B553 /* LWHTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLNode.m; sourceTree = "<group>"; };
-		03141A1F2146A3FA0030B553 /* LWAsyncImageView+Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWAsyncImageView+Display.h"; sourceTree = "<group>"; };
-		03141A202146A3FA0030B553 /* LWAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAsyncImageView.m; sourceTree = "<group>"; };
-		03141A212146A3FA0030B553 /* CALayer+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+WebCache.m"; sourceTree = "<group>"; };
-		03141A222146A3FA0030B553 /* SDImageCache+Gallop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDImageCache+Gallop.m"; sourceTree = "<group>"; };
-		03141A232146A3FA0030B553 /* LWImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWImageProcessor.m; sourceTree = "<group>"; };
-		03141A242146A3FA0030B553 /* GallopUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GallopUtils.m; sourceTree = "<group>"; };
-		03141A252146A3FA0030B553 /* LWTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextParser.m; sourceTree = "<group>"; };
-		03141A262146A3FA0030B553 /* LWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLayout.h; sourceTree = "<group>"; };
-		03141A272146A3FA0030B553 /* LWStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWStorage.m; sourceTree = "<group>"; };
-		03141A282146A3FA0030B553 /* LWTransactionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTransactionGroup.h; sourceTree = "<group>"; };
-		03141A292146A3FA0030B553 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
-		03141A2A2146A3FA0030B553 /* LWAsyncDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAsyncDisplayView.m; sourceTree = "<group>"; };
-		03141A2B2146A3FA0030B553 /* LWHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWHTMLParser.m; sourceTree = "<group>"; };
-		03141A2C2146A3FA0030B553 /* CALayer+LWTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LWTransaction.h"; sourceTree = "<group>"; };
-		03141A2D2146A3FA0030B553 /* LWAsyncImageView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWAsyncImageView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		03141A2E2146A3FA0030B553 /* NSString+HKMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HKMD5.h"; sourceTree = "<group>"; };
-		03141A2F2146A3FA0030B553 /* UIImage+Gallop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gallop.m"; sourceTree = "<group>"; };
-		03141A302146A3FA0030B553 /* LWTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextAttachment.h; sourceTree = "<group>"; };
-		03141A312146A3FA0030B553 /* NSManagedObject+LWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+LWLayout.h"; sourceTree = "<group>"; };
-		03141A322146A3FA0030B553 /* LWTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextRunDelegate.m; sourceTree = "<group>"; };
-		03141A332146A3FA0030B553 /* NSMutableAttributedString+Gallop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Gallop.h"; sourceTree = "<group>"; };
-		03141A342146A3FA0030B553 /* LWAsyncImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWAsyncImageView+WebCache.m"; sourceTree = "<group>"; };
 		03141A652146A6490030B553 /* AppConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigurationTemplate.h; sourceTree = "<group>"; };
 		03141A662146A64A0030B553 /* AppConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigurationTemplate.m; sourceTree = "<group>"; };
 		03141A692146A7A60030B553 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
@@ -221,14 +94,8 @@
 		7CDB3765E1E3D3380AE0EE05 /* Pods-DaysMatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaysMatter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaysMatter/Pods-DaysMatter.debug.xcconfig"; sourceTree = "<group>"; };
 		892720C42160CCD1006E066F /* SWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewController.h; sourceTree = "<group>"; };
 		892720C52160CCD2006E066F /* SWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewController.m; sourceTree = "<group>"; };
-		892720C72160CED5006E066F /* YPNavigationController+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YPNavigationController+Configure.m"; sourceTree = "<group>"; };
-		892720C82160CED5006E066F /* YPNavigationController+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YPNavigationController+Configure.h"; sourceTree = "<group>"; };
-		892720F8216C4956006E066F /* SWRealmConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRealmConfiguration.h; sourceTree = "<group>"; };
-		892720F9216C4956006E066F /* SWRealmConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRealmConfiguration.m; sourceTree = "<group>"; };
 		89272196216DC5FA006E066F /* HTTraffic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTraffic.h; sourceTree = "<group>"; };
 		89272197216DC5FA006E066F /* HTTraffic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTraffic.m; sourceTree = "<group>"; };
-		8927219E216DF1EC006E066F /* SWDataCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDataCounter.h; sourceTree = "<group>"; };
-		8927219F216DF1EC006E066F /* SWDataCounter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDataCounter.m; sourceTree = "<group>"; };
 		892721A7216F3406006E066F /* SWColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWColorViewController.h; sourceTree = "<group>"; };
 		892721A8216F3406006E066F /* SWColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWColorViewController.m; sourceTree = "<group>"; };
 		892721AF216F351B006E066F /* SWTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTheme.h; sourceTree = "<group>"; };
@@ -236,6 +103,8 @@
 		892721B2216F5137006E066F /* IndexHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexHeaderView.h; sourceTree = "<group>"; };
 		892721B3216F5137006E066F /* IndexHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexHeaderView.m; sourceTree = "<group>"; };
 		892721B7216F53E3006E066F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		8927220021709D28006E066F /* SWMatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMatter.h; sourceTree = "<group>"; };
+		8927220121709D28006E066F /* SWMatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMatter.m; sourceTree = "<group>"; };
 		897EBB792147664800CC32BF /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
 		897EBB7A2147664800CC32BF /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
 		897EBB7F214767DC00CC32BF /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
@@ -412,8 +281,6 @@
 				0314194A21469BB50030B553 /* AppDelegate.m */,
 				03141A652146A6490030B553 /* AppConfigurationTemplate.h */,
 				03141A662146A64A0030B553 /* AppConfigurationTemplate.m */,
-				892720F8216C4956006E066F /* SWRealmConfiguration.h */,
-				892720F9216C4956006E066F /* SWRealmConfiguration.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -422,100 +289,8 @@
 			isa = PBXGroup;
 			children = (
 				89DF91E32160645600AFE6B2 /* XLForm */,
-				031419E02146A3FA0030B553 /* Gallop */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		031419E02146A3FA0030B553 /* Gallop */ = {
-			isa = PBXGroup;
-			children = (
-				03141A2C2146A3FA0030B553 /* CALayer+LWTransaction.h */,
-				03141A0A2146A3FA0030B553 /* CALayer+LWTransaction.m */,
-				031419F62146A3FA0030B553 /* CALayer+WebCache.h */,
-				03141A212146A3FA0030B553 /* CALayer+WebCache.m */,
-				03141A0E2146A3FA0030B553 /* CALayer+WebCacheOperation.h */,
-				031419F22146A3FA0030B553 /* CALayer+WebCacheOperation.m */,
-				03141A152146A3FA0030B553 /* Gallop.h */,
-				03141A012146A3FA0030B553 /* GallopDefine.h */,
-				031419F32146A3FA0030B553 /* GallopUtils.h */,
-				03141A242146A3FA0030B553 /* GallopUtils.m */,
-				031419E12146A3FA0030B553 /* LWAsyncDisplayLayer.h */,
-				03141A1B2146A3FA0030B553 /* LWAsyncDisplayLayer.m */,
-				031419FB2146A3FA0030B553 /* LWAsyncDisplayView.h */,
-				03141A2A2146A3FA0030B553 /* LWAsyncDisplayView.m */,
-				031419F72146A3FA0030B553 /* LWAsyncImageView.h */,
-				03141A202146A3FA0030B553 /* LWAsyncImageView.m */,
-				03141A1F2146A3FA0030B553 /* LWAsyncImageView+Display.h */,
-				031419F82146A3FA0030B553 /* LWAsyncImageView+Display.m */,
-				03141A032146A3FA0030B553 /* LWAsyncImageView+WebCache.h */,
-				03141A342146A3FA0030B553 /* LWAsyncImageView+WebCache.m */,
-				03141A092146A3FA0030B553 /* LWAsyncImageView+WebCacheOperation.h */,
-				03141A2D2146A3FA0030B553 /* LWAsyncImageView+WebCacheOperation.m */,
-				03141A142146A3FA0030B553 /* LWCGRectTransform.h */,
-				031419E92146A3FA0030B553 /* LWCGRectTransform.m */,
-				031419F02146A3FA0030B553 /* LWFlag.h */,
-				03141A0D2146A3FA0030B553 /* LWFlag.m */,
-				03141A122146A3FA0030B553 /* LWGIFImage.h */,
-				031419EC2146A3FA0030B553 /* LWGIFImage.m */,
-				031419ED2146A3FA0030B553 /* LWHTMLDisplayView.h */,
-				03141A102146A3FA0030B553 /* LWHTMLDisplayView.m */,
-				03141A0F2146A3FA0030B553 /* LWHTMLImageConfig.h */,
-				031419EE2146A3FA0030B553 /* LWHTMLImageConfig.m */,
-				03141A132146A3FA0030B553 /* LWHTMLLayout.h */,
-				031419EA2146A3FA0030B553 /* LWHTMLLayout.m */,
-				031419F92146A3FA0030B553 /* LWHTMLNode.h */,
-				03141A1E2146A3FA0030B553 /* LWHTMLNode.m */,
-				031419FA2146A3FA0030B553 /* LWHTMLParser.h */,
-				03141A2B2146A3FA0030B553 /* LWHTMLParser.m */,
-				031419EF2146A3FA0030B553 /* LWHTMLTextConfig.h */,
-				03141A0B2146A3FA0030B553 /* LWHTMLTextConfig.m */,
-				031419F42146A3FA0030B553 /* LWImageProcessor.h */,
-				03141A232146A3FA0030B553 /* LWImageProcessor.m */,
-				031419E22146A3FA0030B553 /* LWImageStorage.h */,
-				03141A1C2146A3FA0030B553 /* LWImageStorage.m */,
-				03141A262146A3FA0030B553 /* LWLayout.h */,
-				031419FE2146A3FA0030B553 /* LWLayout.m */,
-				031419FD2146A3FA0030B553 /* LWStorage.h */,
-				03141A272146A3FA0030B553 /* LWStorage.m */,
-				031419E62146A3FA0030B553 /* LWStorageBuilder.h */,
-				03141A192146A3FA0030B553 /* LWStorageBuilder.m */,
-				03141A302146A3FA0030B553 /* LWTextAttachment.h */,
-				03141A062146A3FA0030B553 /* LWTextAttachment.m */,
-				03141A1D2146A3FA0030B553 /* LWTextContainer.h */,
-				031419E32146A3FA0030B553 /* LWTextContainer.m */,
-				03141A112146A3FA0030B553 /* LWTextGlyph.h */,
-				031419EB2146A3FA0030B553 /* LWTextGlyph.m */,
-				03141A172146A3FA0030B553 /* LWTextLayout.h */,
-				031419E72146A3FA0030B553 /* LWTextLayout.m */,
-				031419E82146A3FA0030B553 /* LWTextLine.h */,
-				03141A162146A3FA0030B553 /* LWTextLine.m */,
-				03141A002146A3FA0030B553 /* LWTextParser.h */,
-				03141A252146A3FA0030B553 /* LWTextParser.m */,
-				03141A052146A3FA0030B553 /* LWTextRunDelegate.h */,
-				03141A322146A3FA0030B553 /* LWTextRunDelegate.m */,
-				031419E52146A3FA0030B553 /* LWTextStorage.h */,
-				03141A182146A3FA0030B553 /* LWTextStorage.m */,
-				03141A1A2146A3FA0030B553 /* LWTransaction.h */,
-				031419E42146A3FA0030B553 /* LWTransaction.m */,
-				03141A282146A3FA0030B553 /* LWTransactionGroup.h */,
-				031419FF2146A3FA0030B553 /* LWTransactionGroup.m */,
-				03141A312146A3FA0030B553 /* NSManagedObject+LWLayout.h */,
-				03141A042146A3FA0030B553 /* NSManagedObject+LWLayout.m */,
-				03141A332146A3FA0030B553 /* NSMutableAttributedString+Gallop.h */,
-				03141A022146A3FA0030B553 /* NSMutableAttributedString+Gallop.m */,
-				03141A2E2146A3FA0030B553 /* NSString+HKMD5.h */,
-				03141A082146A3FA0030B553 /* NSString+HKMD5.m */,
-				031419FC2146A3FA0030B553 /* NSString+HTML.h */,
-				03141A292146A3FA0030B553 /* NSString+HTML.m */,
-				031419F52146A3FA0030B553 /* SDImageCache+Gallop.h */,
-				03141A222146A3FA0030B553 /* SDImageCache+Gallop.m */,
-				031419F12146A3FA0030B553 /* SDWebImageManager+Gallop.h */,
-				03141A0C2146A3FA0030B553 /* SDWebImageManager+Gallop.m */,
-				03141A072146A3FA0030B553 /* UIImage+Gallop.h */,
-				03141A2F2146A3FA0030B553 /* UIImage+Gallop.m */,
-			);
-			path = Gallop;
 			sourceTree = "<group>";
 		};
 		03141A642146A6340030B553 /* Util */ = {
@@ -550,8 +325,8 @@
 		8927219C216DF08D006E066F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8927219E216DF1EC006E066F /* SWDataCounter.h */,
-				8927219F216DF1EC006E066F /* SWDataCounter.m */,
+				8927220021709D28006E066F /* SWMatter.h */,
+				8927220121709D28006E066F /* SWMatter.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -619,8 +394,8 @@
 		897EBB762147644100CC32BF /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				892721AA216F340B006E066F /* Theme */,
 				897EBB77214765E600CC32BF /* Index */,
+				892721AA216F340B006E066F /* Theme */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -638,8 +413,6 @@
 		897EBB782147660000CC32BF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				892720C82160CED5006E066F /* YPNavigationController+Configure.h */,
-				892720C72160CED5006E066F /* YPNavigationController+Configure.m */,
 				892720C42160CCD1006E066F /* SWTableViewController.h */,
 				892720C52160CCD2006E066F /* SWTableViewController.m */,
 				897EBB792147664800CC32BF /* SWViewController.h */,
@@ -945,7 +718,6 @@
 				"${BUILT_PRODUCTS_DIR}/TBActionSheet/TBActionSheet.framework",
 				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
-				"${BUILT_PRODUCTS_DIR}/YPNavigationBarTransition/YPNavigationBarTransition.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -963,7 +735,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBActionSheet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPNavigationBarTransition.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -996,10 +767,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				897EBBCC2147C33200CC32BF /* UITableView+Common.m in Sources */,
-				03141A402146A3FB0030B553 /* LWTransactionGroup.m in Sources */,
 				89DF92572160645600AFE6B2 /* XLFormRowNavigationAccessoryView.m in Sources */,
 				897EBBD12147C33200CC32BF /* NSDate+Utilities.m in Sources */,
-				03141A3D2146A3FB0030B553 /* CALayer+WebCacheOperation.m in Sources */,
 				89DF923E2160645600AFE6B2 /* XLFormButtonCell.m in Sources */,
 				89DF925B2160645600AFE6B2 /* XLFormRegexValidator.m in Sources */,
 				897EBBD82147C33200CC32BF /* NSDictionary+Safe.m in Sources */,
@@ -1011,90 +780,49 @@
 				89DF924F2160645600AFE6B2 /* XLFormOptionsObject.m in Sources */,
 				897EBBCE2147C33200CC32BF /* UIColor+layer.m in Sources */,
 				89DF92502160645600AFE6B2 /* XLForm.m in Sources */,
-				03141A562146A3FB0030B553 /* LWStorage.m in Sources */,
-				03141A362146A3FA0030B553 /* LWTransaction.m in Sources */,
 				897EBBD42147C33200CC32BF /* NSString+Common.m in Sources */,
-				03141A3A2146A3FB0030B553 /* LWTextGlyph.m in Sources */,
 				89DF91CC215F2C9300AFE6B2 /* CMAutoTrackerOperation.m in Sources */,
-				03141A532146A3FB0030B553 /* LWImageProcessor.m in Sources */,
-				03141A412146A3FB0030B553 /* NSMutableAttributedString+Gallop.m in Sources */,
 				89DF924A2160645600AFE6B2 /* XLFormSectionDescriptor.m in Sources */,
 				892721B4216F5137006E066F /* IndexHeaderView.m in Sources */,
-				03141A522146A3FB0030B553 /* SDImageCache+Gallop.m in Sources */,
 				892721B1216F351B006E066F /* SWTheme.m in Sources */,
 				89DF92422160645600AFE6B2 /* XLFormInlineSelectorCell.m in Sources */,
-				03141A422146A3FB0030B553 /* NSManagedObject+LWLayout.m in Sources */,
-				03141A492146A3FB0030B553 /* LWHTMLDisplayView.m in Sources */,
 				89DF92412160645600AFE6B2 /* XLFormSliderCell.m in Sources */,
 				89DF92582160645600AFE6B2 /* XLFormRightDetailCell.m in Sources */,
 				892720C62160CCD2006E066F /* SWTableViewController.m in Sources */,
 				89DF92562160645600AFE6B2 /* XLFormTextView.m in Sources */,
-				03141A552146A3FB0030B553 /* LWTextParser.m in Sources */,
 				897EBBD92147C33200CC32BF /* UIViewController+Animation.m in Sources */,
 				89DF925A2160645600AFE6B2 /* UIView+XLFormAdditions.m in Sources */,
 				897EBBCD2147C33200CC32BF /* NSDictionary+HandleNSNull.m in Sources */,
 				03141A672146A64A0030B553 /* AppConfigurationTemplate.m in Sources */,
-				03141A502146A3FB0030B553 /* LWAsyncImageView.m in Sources */,
-				03141A3E2146A3FB0030B553 /* LWAsyncImageView+Display.m in Sources */,
 				89272198216DC5FA006E066F /* HTTraffic.m in Sources */,
+				8927220221709D28006E066F /* SWMatter.m in Sources */,
 				89DF923C2160645600AFE6B2 /* XLFormSegmentedCell.m in Sources */,
-				03141A572146A3FB0030B553 /* NSString+HTML.m in Sources */,
 				89DF924C2160645600AFE6B2 /* XLFormDescriptor.m in Sources */,
-				03141A4E2146A3FB0030B553 /* LWImageStorage.m in Sources */,
-				03141A512146A3FB0030B553 /* CALayer+WebCache.m in Sources */,
-				03141A482146A3FB0030B553 /* LWFlag.m in Sources */,
-				03141A382146A3FB0030B553 /* LWCGRectTransform.m in Sources */,
-				03141A4B2146A3FB0030B553 /* LWTextStorage.m in Sources */,
 				897EBB81214767DC00CC32BF /* IndexViewController.m in Sources */,
 				0314195921469BB60030B553 /* main.m in Sources */,
 				89DF91CD215F2C9300AFE6B2 /* UIViewController+CMAutoTracker.m in Sources */,
 				89DF924E2160645600AFE6B2 /* XLFormOptionsViewController.m in Sources */,
-				03141A4C2146A3FB0030B553 /* LWStorageBuilder.m in Sources */,
-				892720FA216C4956006E066F /* SWRealmConfiguration.m in Sources */,
-				03141A592146A3FB0030B553 /* LWHTMLParser.m in Sources */,
-				03141A372146A3FA0030B553 /* LWTextLayout.m in Sources */,
 				897EBB7B2147664800CC32BF /* SWViewController.m in Sources */,
 				0314194B21469BB50030B553 /* AppDelegate.m in Sources */,
 				89DF923B2160645600AFE6B2 /* XLFormStepCounterCell.m in Sources */,
 				89DF923F2160645600AFE6B2 /* XLFormBaseCell.m in Sources */,
 				89DF92462160645600AFE6B2 /* XLFormDateCell.m in Sources */,
-				03141A4D2146A3FB0030B553 /* LWAsyncDisplayLayer.m in Sources */,
 				897EBBD52147C33200CC32BF /* UIView+FrameGeometry.m in Sources */,
 				89DF92542160645600AFE6B2 /* NSString+XLFormAdditions.m in Sources */,
 				897EBBDA2147C33200CC32BF /* UIImage+UI.m in Sources */,
-				03141A582146A3FB0030B553 /* LWAsyncDisplayView.m in Sources */,
 				89DF924B2160645600AFE6B2 /* XLFormRowDescriptor.m in Sources */,
 				89DF92442160645600AFE6B2 /* XLFormLeftRightSelectorCell.m in Sources */,
-				03141A5A2146A3FB0030B553 /* LWAsyncImageView+WebCacheOperation.m in Sources */,
 				89DF92452160645600AFE6B2 /* XLFormPickerCell.m in Sources */,
-				03141A5B2146A3FB0030B553 /* UIImage+Gallop.m in Sources */,
-				03141A432146A3FB0030B553 /* LWTextAttachment.m in Sources */,
 				897EBBD62147C33200CC32BF /* NSDate+Extension.m in Sources */,
 				89DF91CB215F2C9300AFE6B2 /* NSObject+CMAutoTracker.m in Sources */,
-				03141A5D2146A3FB0030B553 /* LWAsyncImageView+WebCache.m in Sources */,
 				897EBBD72147C33200CC32BF /* UIView+GesAdditions.m in Sources */,
-				03141A462146A3FB0030B553 /* LWHTMLTextConfig.m in Sources */,
 				897EBBD22147C33200CC32BF /* UIView+Common.m in Sources */,
-				03141A3C2146A3FB0030B553 /* LWHTMLImageConfig.m in Sources */,
-				03141A4F2146A3FB0030B553 /* LWHTMLNode.m in Sources */,
-				03141A4A2146A3FB0030B553 /* LWTextLine.m in Sources */,
-				03141A3F2146A3FB0030B553 /* LWLayout.m in Sources */,
-				03141A442146A3FB0030B553 /* NSString+HKMD5.m in Sources */,
-				03141A3B2146A3FB0030B553 /* LWGIFImage.m in Sources */,
-				892720C92160CED5006E066F /* YPNavigationController+Configure.m in Sources */,
 				89DF92522160645600AFE6B2 /* NSPredicate+XLFormAdditions.m in Sources */,
-				03141A472146A3FB0030B553 /* SDWebImageManager+Gallop.m in Sources */,
 				89DF92472160645600AFE6B2 /* XLFormSelectorCell.m in Sources */,
 				89DF925C2160645600AFE6B2 /* XLFormValidationStatus.m in Sources */,
 				89DF92492160645600AFE6B2 /* XLFormDatePickerCell.m in Sources */,
 				89DF92432160645600AFE6B2 /* XLFormImageCell.m in Sources */,
 				89DF924D2160645600AFE6B2 /* XLFormViewController.m in Sources */,
-				892721A0216DF1EC006E066F /* SWDataCounter.m in Sources */,
-				03141A352146A3FA0030B553 /* LWTextContainer.m in Sources */,
-				03141A392146A3FB0030B553 /* LWHTMLLayout.m in Sources */,
-				03141A5C2146A3FB0030B553 /* LWTextRunDelegate.m in Sources */,
-				03141A542146A3FB0030B553 /* GallopUtils.m in Sources */,
-				03141A452146A3FB0030B553 /* CALayer+LWTransaction.m in Sources */,
 				89DF92512160645600AFE6B2 /* NSObject+XLFormAdditions.m in Sources */,
 				89DF92402160645600AFE6B2 /* XLFormSwitchCell.m in Sources */,
 				89DF92592160645600AFE6B2 /* NSArray+XLFormAdditions.m in Sources */,

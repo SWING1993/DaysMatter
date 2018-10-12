@@ -8,6 +8,6 @@
 
 #import "SWViewController.h"
 
-@interface IndexViewController : SWTableViewController<YPNavigationBarConfigureStyle>
+@interface IndexViewController : SWTableViewController
 
 @end

@@ -57,11 +57,13 @@
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-6037095993957840~7664444552"];
 
     IndexViewController *indexController = [[IndexViewController alloc] init];
-    YPNavigationController *indexNav = [[YPNavigationController alloc] initWithRootViewController:indexController];
+    UINavigationController *indexNav = [[UINavigationController alloc] initWithRootViewController:indexController];
     self.window.rootViewController = indexNav;
     
-    [self.window makeKeyAndVisible];
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+
+    [Chameleon setGlobalThemeUsingPrimaryColor:FlatNavyBlueDark withSecondaryColor:FlatBlue andContentStyle:UIContentStyleContrast];
+    [self.window makeKeyAndVisible];
 
     return YES;
 }
@@ -81,11 +83,6 @@
 
 - (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     completionHandler(UIBackgroundFetchResultNewData);
-    
-    NSInteger launch = [[NSUserDefaults standardUserDefaults] integerForKey:@"application"];
-    launch ++;
-    [[NSUserDefaults standardUserDefaults] setInteger:launch forKey:@"application"];
-    [SWDataCounter record];
 }
 
 @end

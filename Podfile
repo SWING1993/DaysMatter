@@ -21,7 +21,7 @@ target "DaysMatter" do
   pod 'UMCCommon'
   pod 'UMCAnalytics'
   pod 'UMCSecurityPlugins'
-  pod 'YPNavigationBarTransition', '~> 2.0'
+#  pod 'YPNavigationBarTransition', '~> 2.0'
   pod 'ChameleonFramework'
 
 end

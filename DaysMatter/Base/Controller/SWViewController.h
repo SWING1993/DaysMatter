@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QMUIKit/QMUIKit.h>
-#import <YPNavigationBarTransition/YPNavigationBarTransition.h>
+//#import <YPNavigationBarTransition/YPNavigationBarTransition.h>
 
 @interface SWViewController  : QMUICommonViewController 
 
