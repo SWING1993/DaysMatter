@@ -7,111 +7,68 @@
 //
 
 #import "IndexViewController.h"
-#import "SWColorViewController.h"
-#import "IndexHeaderView.h"
-#import "SWMatter.h"
+#import "MLMSegmentManager.h"
+#import "DaysMatterListViewController.h"
 
 
-@interface IndexViewController ()<GADBannerViewDelegate>
-
-@property (nonatomic, strong) NSMutableArray *dataSource;
-@property (nonatomic, strong) IndexHeaderView* tableViewHeader;
+@interface IndexViewController (){
+    NSArray *list;
+}
+@property (nonatomic, strong) MLMSegmentHead *segHead;
+@property (nonatomic, strong) MLMSegmentScroll *segScroll;
 @end
 
 @implementation IndexViewController
 
 - (void)initSubviews {
     [super initSubviews];
+    [self setTitle:@"DaysMatter"];
     self.view.backgroundColor = UIColorForBackground;
-}
-
-- (void)initTableView {
-    [super initTableView];
-    self.tableView.sectionFooterHeight = CGFLOAT_MIN;
-    self.tableView.sectionHeaderHeight = CGFLOAT_MIN;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.tableHeaderView = self.tableViewHeader;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-    self.dataSource = [NSMutableArray array];
-    RLMResults *matters = [SWMatter allObjects];
-    if (matters.count == 0) {
-        RLMRealm *realm = [RLMRealm defaultRealm];
-        SWMatter *matter1 = [[SWMatter alloc] init];
-        matter1.title = @"发工资";
-        matter1.date = [[NSDate date] dateByAddingDays:130];
-        matter1.category = @"生活";
-        matter1.categoryImageName = @"xxx.png";
-        
-        SWMatter *matter2 = [[SWMatter alloc] init];
-        matter2.title = @"生日";
-        matter2.date = [[NSDate date] dateByAddingDays:-55];
-        matter2.category = @"生活";
-        matter2.categoryImageName = @"xxx.png";
-        
-        [realm beginWriteTransaction];
-        [realm addObject:matter1];
-        [realm addObject:matter2];
-        [realm commitWriteTransaction];
-         
-        [self.dataSource addObject:matter1];
-        [self.dataSource addObject:matter2];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self segmentStyle9];
+}
 
-    } else {
-        for (int i = 0; i < matters.count; i ++) {
-            SWMatter *matter = [matters objectAtIndex:i];
-            [self.dataSource addObject:matter];
-        }
-    }
+
+#pragma mark - 居左下划线
+- (void)segmentStyle9 {
+    list = @[@"  推荐  ",
+             @"  美容  ",
+             @"  科技  "
+             ];
+    _segHead = [[MLMSegmentHead alloc] initWithFrame:CGRectMake(0, self.qmui_navigationBarMaxYInViewCoordinator, SCREEN_WIDTH, 40) titles:list headStyle:SegmentHeadStyleLine layoutStyle:MLMSegmentLayoutLeft];
+    _segHead.lineColor = FlatSkyBlueDark;
+    _segHead.fontSize = 14;
+    _segHead.lineScale = .9;
+    _segHead.bottomLineHeight = PixelOne;
+    _segHead.bottomLineColor = UIColorMake(220, 220, 220);
     
-    [self.tableView reloadData];
-
+    _segScroll = [[MLMSegmentScroll alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_segHead.frame), SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(_segHead.frame)) vcOrViews:[self vcArr:list.count]];
+    _segScroll.loadAll = NO;
+    _segScroll.showIndex = 0;
     
+    [MLMSegmentManager associateHead:_segHead withScroll:_segScroll completion:^{
+        [self.view addSubview:self.segHead];
+        [self.view addSubview:self.segScroll];
+    }];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 50;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataSource.count;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    QMUITableViewCell *cell = (QMUITableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (!cell) {
-        cell = [[QMUITableViewCell alloc] initForTableView:tableView withStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
-        cell.textLabel.font = [UIFont systemFontOfSize:15];
-        cell.detailTextLabel.font = [UIFont systemFontOfSize:14];
-        cell.textLabel.textColor = UIColorMakeX(33);
-        cell.detailTextLabel.textColor = UIColorGray;
+#pragma mark - 数据源
+- (NSArray *)vcArr:(NSInteger)count {
+    NSMutableArray *arr = [NSMutableArray array];
+    for (NSInteger i = 0; i < count; i ++) {
+        DaysMatterListViewController *vc = [DaysMatterListViewController new];
+        [arr addObject:vc];
     }
-    SWMatter *matter = self.dataSource[indexPath.row];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@ %@",matter.category,[matter.date formatYMD]];
-    if ([NSDate getDaysFrom:matter.date To:[NSDate date]] > 0) {
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"距离%@还有%zi天",matter.title,[NSDate getDaysFrom:matter.date To:[NSDate date]]];
-
-    } else {
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@发生已经%zi天",matter.title,[NSDate getDaysFrom:matter.date To:[NSDate date]]];
-    }
-    return cell;
+    return arr;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    SWColorViewController *controller = [[SWColorViewController alloc] init];
-    [self.navigationController pushViewController:controller animated:YES];
+- (void)dealloc {
+    NSLog(@"释放");
 }
 
 @end

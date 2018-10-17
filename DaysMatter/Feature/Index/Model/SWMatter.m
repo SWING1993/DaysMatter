@@ -10,4 +10,8 @@
 
 @implementation SWMatter
 
+- (NSInteger)apart {
+    return [NSDate getDaysFrom:[NSDate date] To:self.date];
+}
+
 @end

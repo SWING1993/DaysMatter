@@ -10,7 +10,7 @@
 
 @interface SWMatter : RLMObject
 
-@property (readonly)int apart;
+@property (readonly) NSInteger apart;
 @property NSDate *date;
 @property NSString *title;
 @property NSString *category;

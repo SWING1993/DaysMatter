@@ -61,8 +61,7 @@
     self.window.rootViewController = indexNav;
     
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
-
-    [Chameleon setGlobalThemeUsingPrimaryColor:FlatNavyBlueDark withSecondaryColor:FlatBlue andContentStyle:UIContentStyleContrast];
+//    [Chameleon setGlobalThemeUsingPrimaryColor:UIColorWhite withSecondaryColor:FlatBlue andContentStyle:UIContentStyleLight];
     [self.window makeKeyAndVisible];
 
     return YES;
