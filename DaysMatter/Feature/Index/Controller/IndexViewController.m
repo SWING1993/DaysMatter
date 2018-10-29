@@ -29,13 +29,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self segmentStyle9];
+    [self initSegment];
 }
 
 
 #pragma mark - 居左下划线
-- (void)segmentStyle9 {
+- (void)initSegment {
     list = @[@"  推荐  ",
              @"  美容  ",
              @"  科技  "
