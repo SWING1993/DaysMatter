@@ -35,7 +35,6 @@
         [imageMask setClipsToBounds:YES];
         [self.bg addSubview:imageMask];
         
-        
         UIView *bgMaskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.bg.qmui_width, self.bg.qmui_height)];
         bgMaskView.backgroundColor = UIColorWhite;
         bgMaskView.alpha = 0.05;

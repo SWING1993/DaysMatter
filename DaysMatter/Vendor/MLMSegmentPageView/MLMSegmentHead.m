@@ -337,6 +337,7 @@ static CGFloat animation_time = .3;
         [button setTitle:titlesArr[i] forState:UIControlStateNormal];
         button.titleLabel.font = [UIFont systemFontOfSize:_fontSize];
         button.frame = CGRectMake(start_x, 0, width, SCROLL_HEIGHT);
+//        [button setTitleColor:UIColorWhite forState:UIControlStateNormal];
         start_x += width;
         if (titles) {
             [button setTintColor:_deSelectColor];
