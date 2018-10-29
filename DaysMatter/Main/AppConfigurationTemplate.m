@@ -23,7 +23,7 @@
     QMUICMI.grayDarkenColor = UIColorMake(93, 100, 110);                                     // UIColorGrayDarken : 深一点的灰色
     QMUICMI.grayLightenColor = UIColorMake(173, 180, 190);                                    // UIColorGrayLighten : 浅一点的灰色
     QMUICMI.redColor = UIColorMake(216, 78, 67);                                // UIColorRed : 红色
-    QMUICMI.greenColor = UIColorGreen1;                                         // UIColorGreen : 绿色
+    QMUICMI.greenColor = UIColorMake(26, 173, 76);                                         // UIColorGreen : 绿色
     QMUICMI.blueColor = UIColorMake(39, 130, 215);                              // UIColorBlue : 蓝色
     QMUICMI.yellowColor = UIColorMake(255, 190, 0);                                        // UIColorYellow : 黄色
     QMUICMI.linkColor = UIColorMake(56, 116, 171);                              // UIColorLink : 文字链接颜色
@@ -74,7 +74,7 @@
     QMUICMI.navBarDisabledAlpha = 0.2f;                                         // NavBarDisabledAlpha : QMUINavigationButton 在 disabled 时的 alpha
     QMUICMI.navBarButtonFont = UIFontPFRegularMake(15);                                  // NavBarButtonFont : QMUINavigationButtonTypeNormal 的字体（由于系统存在一些 bug，这个属性默认不对 UIBarButtonItem 生效）
     QMUICMI.navBarButtonFontBold = UIFontBoldMake(17);                          // NavBarButtonFontBold : QMUINavigationButtonTypeBold 的字体
-    QMUICMI.navBarBackgroundImage = [UIImage qmui_imageWithColor:UIColorGreen1];
+    QMUICMI.navBarBackgroundImage = [UIImage qmui_imageWithColor:UIColorTheme];
     //UIImageMake(@"navigationbar_background");   // NavBarBackgroundImage : UINavigationBar 的背景图
     QMUICMI.navBarShadowImage = [UIImage new];                                  // NavBarShadowImage : UINavigationBar.shadowImage，也即导航栏底部那条分隔线
 //    QMUICMI.navBarBarTintColor = nil;                                           // NavBarBarTintColor : UINavigationBar.barTintColor，也即背景色

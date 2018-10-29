@@ -67,10 +67,7 @@
             [self.dataSource addObject:matter];
         }
     }
-    
     [self.tableView reloadData];
-    
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {

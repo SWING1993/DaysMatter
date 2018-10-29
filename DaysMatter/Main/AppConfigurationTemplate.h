@@ -11,8 +11,8 @@
 #define UIColorMakeX(x) UIColorMake(x, x, x)
 #define UIColorRandom [UIColor qmui_randomColor]
 #define UIColorHighLightColor UIColorMakeWithRGBA(0, 0, 0, 0.15)
-#define UIColorGreen1 UIColorMake(26, 173, 76)
-#define UIColorGreen2 UIColorMake(43, 162, 69)
+#define UIColorTheme UIColorMake(136, 139, 164)
+#define UIColorThemeForSub UIColorMake(151, 151, 176)
 #define UIColorBlack1 UIColorMake(77, 77, 77)
 #define UIColorTextBlack UIColorMake(33, 33, 33)
 #define UIColorSubTextBlack UIColorMake(170, 170, 170)

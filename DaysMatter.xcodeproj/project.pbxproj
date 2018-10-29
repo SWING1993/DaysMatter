@@ -43,6 +43,7 @@
 		89B1A8E52177196300F0C7DF /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B1A8DA2177196300F0C7DF /* UIView+EasyFrame.m */; };
 		89B1A8EE21772D7200F0C7DF /* DaysMatterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B1A8ED21772D7200F0C7DF /* DaysMatterListViewController.m */; };
 		89B1A8F1217735A000F0C7DF /* SWDaysMatterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B1A8F0217735A000F0C7DF /* SWDaysMatterCell.m */; };
+		89BD67B721870D8F00F4ABB8 /* CreateMatterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD67B621870D8F00F4ABB8 /* CreateMatterController.m */; };
 		89DF91CB215F2C9300AFE6B2 /* NSObject+CMAutoTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF91C5215F2C9300AFE6B2 /* NSObject+CMAutoTracker.m */; };
 		89DF91CC215F2C9300AFE6B2 /* CMAutoTrackerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF91C6215F2C9300AFE6B2 /* CMAutoTrackerOperation.m */; };
 		89DF91CD215F2C9300AFE6B2 /* UIViewController+CMAutoTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DF91C7215F2C9300AFE6B2 /* UIViewController+CMAutoTracker.m */; };
@@ -157,6 +158,8 @@
 		89B1A8ED21772D7200F0C7DF /* DaysMatterListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaysMatterListViewController.m; sourceTree = "<group>"; };
 		89B1A8EF217735A000F0C7DF /* SWDaysMatterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDaysMatterCell.h; sourceTree = "<group>"; };
 		89B1A8F0217735A000F0C7DF /* SWDaysMatterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDaysMatterCell.m; sourceTree = "<group>"; };
+		89BD67B521870D8F00F4ABB8 /* CreateMatterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateMatterController.h; sourceTree = "<group>"; };
+		89BD67B621870D8F00F4ABB8 /* CreateMatterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateMatterController.m; sourceTree = "<group>"; };
 		89DF91C5215F2C9300AFE6B2 /* NSObject+CMAutoTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CMAutoTracker.m"; sourceTree = "<group>"; };
 		89DF91C6215F2C9300AFE6B2 /* CMAutoTrackerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAutoTrackerOperation.m; sourceTree = "<group>"; };
 		89DF91C7215F2C9300AFE6B2 /* UIViewController+CMAutoTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CMAutoTracker.m"; sourceTree = "<group>"; };
@@ -343,6 +346,8 @@
 				897EBB80214767DC00CC32BF /* IndexViewController.m */,
 				89B1A8EC21772D7200F0C7DF /* DaysMatterListViewController.h */,
 				89B1A8ED21772D7200F0C7DF /* DaysMatterListViewController.m */,
+				89BD67B521870D8F00F4ABB8 /* CreateMatterController.h */,
+				89BD67B621870D8F00F4ABB8 /* CreateMatterController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -873,6 +878,7 @@
 				89DF92492160645600AFE6B2 /* XLFormDatePickerCell.m in Sources */,
 				89B1A8F1217735A000F0C7DF /* SWDaysMatterCell.m in Sources */,
 				89DF92432160645600AFE6B2 /* XLFormImageCell.m in Sources */,
+				89BD67B721870D8F00F4ABB8 /* CreateMatterController.m in Sources */,
 				89DF924D2160645600AFE6B2 /* XLFormViewController.m in Sources */,
 				89DF92512160645600AFE6B2 /* NSObject+XLFormAdditions.m in Sources */,
 				89DF92402160645600AFE6B2 /* XLFormSwitchCell.m in Sources */,
